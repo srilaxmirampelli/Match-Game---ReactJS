@@ -1,0 +1,41 @@
+.tabitem-card {
+  list-style-type: none;
+}
+.default-tab-btn {
+  background-color: transparent;
+  border-width: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+.active-tab-btn {
+  color: #fec653;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 0;
+  border-bottom: 4px solid #fec653;
+  padding-bottom: 8px;
+}
+@media screen and (min-width: 576px) {
+  .default-tab-btn {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tabitem-card {
+    margin-top: 10px;
+  }
+  .default-tab-btn {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .default-tab-btn {
+    font-size: 20px;
+  }
+  .tabitem-card {
+    margin-top: 8px;
+  }
+}

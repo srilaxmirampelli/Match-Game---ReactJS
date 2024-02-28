@@ -1,0 +1,144 @@
+.match-game-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnail-container {
+  width: 100%;
+}
+.thumbnail-img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 5px;
+}
+.tab-item-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  width: 60%;
+}
+.match-game-item-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+.game-over-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+}
+.game-over-card {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png);
+  width: 69%;
+  height: 55vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy-img {
+  width: 34%;
+  margin-top: 10vh;
+  margin-bottom: 10px;
+}
+.game-over-score-text {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.game-over-score {
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 7px;
+}
+.play-again-btn {
+  background-color: #cf60c8;
+  border-width: 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+.reset-img {
+  width: 20px;
+  align-self: center;
+}
+@media screen and (min-width: 576px) {
+  .match-game-container {
+    padding: 60px;
+  }
+  .thumbnail-img {
+    height: 38vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .match-game-container {
+    padding: 100px;
+    padding-top: 40px;
+  }
+  .thumbnail-img {
+    height: 35vh;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .thumbnail-img {
+    width: 100%;
+    height: 35vh;
+  }
+  .match-game-container {
+    padding: 140px;
+    padding-top: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thumbnail-img {
+    width: 50%;
+    height: 38vh;
+  }
+  .match-game-container {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 5vh;
+  }
+  .match-game-item-list {
+    width: 50%;
+  }
+  .tab-item-list {
+    justify-content: space-evenly;
+    width: 27%;
+  }
+  .game-over-card {
+    width: 30vw;
+    height: 70vh;
+  }
+  .trophy-img {
+    margin-top: 20vh;
+  }
+}
